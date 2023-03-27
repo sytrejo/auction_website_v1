@@ -1,3 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .right {
+    width: 65%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.item-info{
+    padding-left: 5px;
+}
+
 .image-wrapper {
     box-sizing:border-box;
     float: left;
@@ -12,7 +41,7 @@
   
   .image-wrapper:nth-child(odd)
   {
-    padding-right:5px;
+    padding: right 10px;
   }
   
   .image-wrapper > img {

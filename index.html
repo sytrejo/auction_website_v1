@@ -9,23 +9,43 @@
 </head>
 <body>
 
-    <div class="container" id="featuredAuction">
+    <div class="row container" id="featuredAuction">
         <h1>Featured Auction</h1>
-        <div class="image-wrapper">
-            <img src=assets/fox1.jpg  />
+        <div class="column left image-container">
+            <div class="image-wrapper">
+                <img src=assets/fox1.jpg  />
+            </div>
+            <div class="image-wrapper">
+                <img src=assets/fox2.jpg />
+            </div>
+            <div class="image-wrapper">
+                <img src=assets/fox3.jpg />
+            </div>
+            <div class="image-wrapper">
+                <img src=assets/fox4.jpg />
+            </div>
         </div>
-        <div class="image-wrapper">
-            <img src=assets/fox2.jpg />
-        </div>
-        <div class="image-wrapper">
-            <img src=assets/fox3.jpg />
-        </div>
-        <div class="image-wrapper">
-            <img src=assets/fox4.jpg />
+        <div class="column right auction_info_container">
+            <h2>Auction Title</h2>
+            <div class="item-info">
+                <p>This FOX plush stuffed animal is securely sewn from the highest quality polyester and acrylic fabrics and filled with white polypropylene plush filling, exclusively all new material, soft and cuddly, could be wash, safe for your kids. All soft toys are good at hugging, comforting and listening and are fond of play and mischief. A great stuffed toy for your children and best gift for FOX lovers or plushie lovers.</p>
+                <br>
+                <h3>Countdown: </h3>
+                <p id="countdown"></p>
+                <br>
+                <div class="bid-amount">
+                    <form>
+                        <input type="text" name="bid" placeholder="$0.00 USD" required>
+                        <buttton type="submit"> Place Bid </buttton>
+                    </form>
+                </div>  
+            </div>
+ 
         </div>
 
     </div>
 
     
 </body>
+<script src="script.js"></script>
 </html>
