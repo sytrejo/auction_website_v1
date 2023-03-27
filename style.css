@@ -1,6 +1,16 @@
 * {
     box-sizing: border-box;
   }
+
+  .column1{
+    float: left;
+    width: 25%;
+  }
+
+  img{
+    width: 100px;
+    height: 300px;
+  }
   
   /* Create two unequal columns that floats next to each other */
   .column {
